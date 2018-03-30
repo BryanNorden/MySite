@@ -3,8 +3,24 @@
 #export("title") { It works }
 
 #export("content") {
-	<div class="welcome">
+	<!-- <div class="welcome">
 		<img src="/images/it-works.png">
+	</div> -->
+
+	<div class="welcome">
+		<h1>Bryan Norden - Software Engineer</h1>
+		
+		<img src="/images/bryan-norden.jpeg">
+
+		<li class="no-bullet-point"><span class="fact-label">LinkedIn</span>: <a href="https://www.LinkedIn.com/in/bryannorden" target="_blank">https://www.LinkedIn.com/in/bryannorden</a></li>
+		<li class="no-bullet-point"><span class="fact-label">GitHub</span>: <a href="https://github.com/BryanNorden" target="_blank">https://github.com/BryanNorden</a></li>
+
+
+		<h3>Site currently under construction</h3>
+
+
 	</div>
 }
+
+
 
