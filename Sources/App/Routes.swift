@@ -23,3 +23,12 @@ final class Routes: RouteCollection {
 
     }
 }
+
+
+let name = "Bryan Norden"
+
+let occupation = "Software Engineer"
+
+
+
+
