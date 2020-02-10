@@ -1,26 +1,36 @@
-#extend("base")
+#set("title") { Bryan Norden }
 
-#export("title") { It works }
-
-#export("content") {
+#set("content") {
 	<!-- <div class="welcome">
 		<img src="/images/it-works.png">
 	</div> -->
 
-	<div class="welcome">
-		<h1>Bryan Norden - Software Engineer</h1>
+	<div class="welcome" align="center">
+        <body style="background-color:black">
+		<h1 style="color:white">Bryan Norden - Software Engineer</h1>
 		
 		<img src="/images/bryan-norden.jpeg">
-
-		<li class="no-bullet-point"><span class="fact-label">LinkedIn</span>: <a href="https://www.LinkedIn.com/in/bryannorden" target="_blank">https://www.LinkedIn.com/in/bryannorden</a></li>
-		<li class="no-bullet-point"><span class="fact-label">GitHub</span>: <a href="https://github.com/BryanNorden" target="_blank">https://github.com/BryanNorden</a></li>
-
-
-		<h3>Site currently under construction</h3>
-
-
+        
+        <p><br></p>
+        <p style="color:white">Hi! My name is Bryan Norden and I am a Software Engineer.</p>
+        <p style="color:white">I currently work on iOS, tvOS, and server side swift projects. I am passionate about building applications with elegant designs that scale.</p>
+        
+        <p><br></p>
+        <a href="https://www.LinkedIn.com/in/bryannorden" target="_blank">https://www.LinkedIn.com/in/bryannorden <br></a>
+        <a href="https://github.com/BryanNorden" target="_blank">https://github.com/BryanNorden</a>
+        
+        <p><br></p>
+        <h3 style="color:white">Day job</h3>
+        <p style="color:white">I work full time at CBS Interactive building their streaming iOS and tvOS app that reaches millions of users</p>
+        
+        <p><br></p>
+        <h3 style="color:white">When I am not at work</h3>
+        <p style="color:white">I like to build server side swift applications and do freelance software development work</p>
 	</div>
+ 
+    <footer class="myFooter" align="center">
+        <p style="color:white">I built this using Swift with Vapor hosted on AWS</p>
+    </footer>
 }
 
-
-
+#embed("base")
