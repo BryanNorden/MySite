@@ -1,0 +1,13 @@
+#1
+version: '2' 
+#2 
+services:
+  #3 
+  website:
+    #4
+    build:
+      context: .
+      dockerfile: production.Dockerfile
+    #5 
+    ports:
+      - "8080:8080"
